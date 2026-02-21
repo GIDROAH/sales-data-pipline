@@ -23,3 +23,5 @@ for _, row in data.iterrows():
     conn.commit()
 cur.close()
 conn.close()
+
+print("Data inserted successfully!")
