@@ -1,24 +1,24 @@
-Sales Data Pipeline (Python + PostgreSQL)
+### Sales Data Pipeline (Python + PostgreSQL)
 
-📌 Overview
+### 📌 Overview
 This project demonstrates a simple ETL (Extract, Transform, Load) pipeline using Python and PostgreSQL.  
 It ingests raw sales data from CSV files, cleans and transforms it in Python, loads it into a PostgreSQL database, and finally runs SQL queries to generate business insights such as total revenue, top products, and monthly sales trends.
 
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 1. Python (Pandas, psycopg2)
 2. PostgreSQL
 3. SQL
 
 
-🔄 Project Workflow
+### 🔄 Project Workflow
 1. Extract → Read sales data from CSV using Python.  
 2. Transform → Clean data, calculate `total = quantity * price`.  
 3. Load → Insert transformed data into PostgreSQL.  
 4. Query → Run SQL queries to generate insights.
 
 
-⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 1. Clone the repository:
 
    ```bash
