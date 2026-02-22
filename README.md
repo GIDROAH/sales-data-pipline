@@ -6,9 +6,9 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 
 
 ### 🛠 Tech Stack
-1. Python (Pandas, psycopg2)
-2. PostgreSQL
-3. SQL
+1. **Python** (Pandas, psycopg2)
+2. **PostgreSQL**
+3. **SQL**
 
 
 ### 🔄 Project Workflow
@@ -19,7 +19,7 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 
 
 ### ⚙️ Setup Instructions
-1. Clone the repository:
+**1. Clone the repository:**
 
    ```bash
    git clone https://github.com/yourusername/sales-data-pipeline.git
@@ -29,7 +29,7 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 
    psql -U postgres -d studentdb -f sql/queries.sql // if you don't have then only run this.
 
-2. Step-by-step so anyone can run it:
+**2. Step-by-step so anyone can run it:** 
 
 1. Clone the repo
 2. Install dependencies: pip install -r requirements.txt
