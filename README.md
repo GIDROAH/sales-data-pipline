@@ -96,7 +96,7 @@ studentdb-# GROUP BY customer
 -------------------------------------------------- Future Improvement ------------------------------------------------- 
 
 
-Data inserted successfully!
+### Data inserted successfully!
     │
     ├── data/
     │   └── sales.csv
