@@ -39,9 +39,9 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 6. Run queries.sql for insights
 ```
 
------------------------------------------------------ Some Outputs -----------------------------------------------------
+### ----------------------------------------------------- Some Outputs -----------------------------------------------------
 
-###Terminal output :-
+### Terminal Output :-
 ```
 (.venv) PS D:\Deepak\data_engineer\sales-data-pipline> & D:/Deepak/data_engineer/sales-data-pipline/.venv/Scripts/python.exe d:/Deepak/data_engineer/sales-data-pipline/etl-script.py
 Enter your database name: studentdb
@@ -92,11 +92,11 @@ studentdb-# GROUP BY customer
  Anita    |        25000
 (6 rows)
 
+```
+### -------------------------------------------------- Future Improvement ------------------------------------------------- 
 
--------------------------------------------------- Future Improvement ------------------------------------------------- 
 
-
-### Data inserted successfully!
+### Data inserted successfully! ```
     │
     ├── data/
     │   └── sales.csv
