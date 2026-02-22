@@ -37,12 +37,12 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 4. Run schema.sql to create tables
 5. Run etl.py to load data
 6. Run queries.sql for insights
-
+```
 
 ----------------------------------------------------- Some Outputs -----------------------------------------------------
 
-Terminal output :-
-
+###Terminal output :-
+```
 (.venv) PS D:\Deepak\data_engineer\sales-data-pipline> & D:/Deepak/data_engineer/sales-data-pipline/.venv/Scripts/python.exe d:/Deepak/data_engineer/sales-data-pipline/etl-script.py
 Enter your database name: studentdb
 Enter your database password: [password]
