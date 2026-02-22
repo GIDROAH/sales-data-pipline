@@ -28,9 +28,9 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
    python scripts/etl.py
 
    psql -U postgres -d studentdb -f sql/queries.sql // if you don't have then only run this.
-
+```
 **2. Step-by-step so anyone can run it:** 
-
+```
 1. Clone the repo
 2. Install dependencies: pip install -r requirements.txt
 3. Create PostgreSQL database: studentdb
