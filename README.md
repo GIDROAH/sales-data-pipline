@@ -97,14 +97,17 @@ studentdb-# GROUP BY customer
 
 
 ### Project Structure
-```text
-data/
- └── sales.csv
-scripts/
- └── etl.py
-sql/
- ├── schema.sql
- └── queries.sql
-README.md
-requirements.txt
+    │
+    ├── data/
+    │   └── sales.csv
+    │
+    ├── scripts/
+    │   └── etl.py
+    │
+    ├── sql/
+    │   ├── schema.sql
+    │   └── queries.sql
+    │
+    ├── README.md
+    └── requirements.txt
 ```
