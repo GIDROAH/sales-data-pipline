@@ -12,10 +12,10 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 
 
 ### 🔄 Project Workflow
-1. Extract → Read sales data from CSV using Python.  
-2. Transform → Clean data, calculate `total = quantity * price`.  
-3. Load → Insert transformed data into PostgreSQL.  
-4. Query → Run SQL queries to generate insights.
+1. **Extract** → Read sales data from CSV using Python.  
+2. **Transform** → Clean data, calculate `total = quantity * price`.  
+3. **Load** → Insert transformed data into PostgreSQL.  
+4. **Query** → Run SQL queries to generate insights.
 
 
 ### ⚙️ Setup Instructions
