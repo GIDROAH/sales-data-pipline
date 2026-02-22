@@ -39,7 +39,7 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 6. Run queries.sql for insights
 
 ```
-### -------------------------------------------------- Some Outputs -----------------------------------------------------
+### ----------------------------------------- Some Outputs --------------------------------------------
 
 ### Terminal Output
 ```bash
@@ -93,7 +93,7 @@ studentdb-# GROUP BY customer
 (6 rows)
 
 ```
-### -------------------------------------------------- Future Improvements --------------------------------------------------
+### ----------------------------------------- Future Improvements -----------------------------------------
 
 ### Project Structure 
 ```    │
