@@ -38,8 +38,8 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 5. Run etl.py to load data
 6. Run queries.sql for insights
 
-
------------------------------------------------------ Some Outputs -----------------------------------------------------
+```
+### -------------------------------------------------- Some Outputs -----------------------------------------------------
 
 ### Terminal Output
 ```bash
@@ -76,8 +76,8 @@ studentdb-# GROUP BY product;
  RAM     |          2
  Laptop  |          2
 (4 rows)
-
-
+```
+```
 studentdb=# SELECT customer, SUM(total) AS total_earned
 studentdb-# FROM sales
 studentdb-# GROUP BY customer
@@ -93,10 +93,9 @@ studentdb-# GROUP BY customer
 (6 rows)
 
 ```
--------------------------------------------------- Future Improvement ------------------------------------------------- 
+###----------------------------------------------- Future Improvement ------------------------------------------------- 
 
-
-### Project Structure
+### Project Structure ```
     │
     ├── data/
     │   └── sales.csv
