@@ -41,16 +41,17 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 
 ----------------------------------------------------- Some Outputs -----------------------------------------------------
 
-Terminal output :-
-
-(.venv) PS D:\Deepak\data_engineer\sales-data-pipline> & D:/Deepak/data_engineer/sales-data-pipline/.venv/Scripts/python.exe d:/Deepak/data_engineer/sales-data-pipline/etl-script.py
+### Terminal Output
+```bash
+(.venv) PS D:\Deepak\data_engineer\sales-data-pipline> python etl-script.py
 Enter your database name: studentdb
-Enter your database password: ***[password]***
+Enter your database password: [password]
 Database connection successful!
 Data inserted successfully!
+```
 
-Postgres output :-
-
+### Postgres Output
+```sql
 studentdb=# select * from sales;
 
  order_id | customer | product | quantity | price |    date    | total
@@ -62,13 +63,12 @@ studentdb=# select * from sales;
         5 | Sunita   | Phone   |        1 | 15000 | 2026-01-25 | 15000
         6 | Mannu    | RAM     |        2 |  8000 | 2026-02-22 | 16000
 (6 rows)
-
-
+```
+```
 studentdb=# SELECT product, SUM(quantity) AS total_sold
 studentdb-# FROM sales
 studentdb-# GROUP BY product;
 
- 
  product | total_sold
 ---------+------------
  Tablet  |          1
@@ -82,7 +82,6 @@ studentdb=# SELECT customer, SUM(total) AS total_earned
 studentdb-# FROM sales
 studentdb-# GROUP BY customer
 
-
  customer | total_earned
 ----------+--------------
  Rahul    |        60000
@@ -93,22 +92,19 @@ studentdb-# GROUP BY customer
  Anita    |        25000
 (6 rows)
 
-
+```
 -------------------------------------------------- Future Improvement ------------------------------------------------- 
 
 
-Data inserted successfully!
-    │
-    ├── data/
-    │   └── sales.csv
-    │
-    ├── scripts/
-    │   └── etl.py
-    │
-    ├── sql/
-    │   ├── schema.sql
-    │   └── queries.sql
-    │
-    ├── README.md
-    └── requirements.txt
-
+### Project Structure
+```text
+data/
+ └── sales.csv
+scripts/
+ └── etl.py
+sql/
+ ├── schema.sql
+ └── queries.sql
+README.md
+requirements.txt
+```
