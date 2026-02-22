@@ -38,12 +38,12 @@ It ingests raw sales data from CSV files, cleans and transforms it in Python, lo
 5. Run etl.py to load data
 6. Run queries.sql for insights
 
-```
-### -------------------------------------------------- Some Outputs -----------------------------------
 
-### Terminal Output
-```bash
-(.venv) PS D:\Deepak\data_engineer\sales-data-pipline> python etl-script.py
+----------------------------------------------------- Some Outputs -----------------------------------------------------
+
+Terminal output :-
+
+(.venv) PS D:\Deepak\data_engineer\sales-data-pipline> & D:/Deepak/data_engineer/sales-data-pipline/.venv/Scripts/python.exe d:/Deepak/data_engineer/sales-data-pipline/etl-script.py
 Enter your database name: studentdb
 Enter your database password: [password]
 Database connection successful!
@@ -92,11 +92,12 @@ studentdb-# GROUP BY customer
  Anita    |        25000
 (6 rows)
 
-```
-### -------------------------------------------------- Future Improvements --------------------------------------------------
 
-### Project Structure 
-```    │
+-------------------------------------------------- Future Improvement ------------------------------------------------- 
+
+
+Data inserted successfully!
+    │
     ├── data/
     │   └── sales.csv
     │
