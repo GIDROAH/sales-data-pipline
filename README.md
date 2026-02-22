@@ -52,6 +52,7 @@ Data inserted successfully!
 Postgres output :-
 
 studentdb=# select * from sales;
+
  order_id | customer | product | quantity | price |    date    | total
 ----------+----------+---------+----------+-------+------------+-------
         1 | Deepak   | Laptop  |        1 | 60000 | 2026-01-10 | 60000
@@ -66,6 +67,8 @@ studentdb=# select * from sales;
 studentdb=# SELECT product, SUM(quantity) AS total_sold
 studentdb-# FROM sales
 studentdb-# GROUP BY product;
+
+ 
  product | total_sold
 ---------+------------
  Tablet  |          1
@@ -77,7 +80,9 @@ studentdb-# GROUP BY product;
 
 studentdb=# SELECT customer, SUM(total) AS total_earned
 studentdb-# FROM sales
-studentdb-# GROUP BY customer;
+studentdb-# GROUP BY customer
+
+
  customer | total_earned
 ----------+--------------
  Rahul    |        60000
